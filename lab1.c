@@ -1,3 +1,6 @@
+//--Gustavo Martins Ferreira de Aquino
+//--DRE:119044012
+
 #include <stdio.h>
 #include <stdlib.h> 
 #include <pthread.h>
@@ -56,7 +59,7 @@ int main() {
         } 
     }
 
-    //imprime o vetor pra cnofirmar o resultado satisfatorio
+    //imprime o vetor pra confirmar o resultado satisfatorio
     for(int i=0;i<VectorSize;i++) printf("%d ",vector[i]);
 
     printf("\n--Sequencia de '5' e apenas '5' representa resultado correto\n");
