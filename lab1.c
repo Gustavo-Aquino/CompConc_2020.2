@@ -6,7 +6,7 @@
 #include <pthread.h>
 
 #define NTHREADS  2         //total de threads a serem criadas
-#define VectorSize 1000     //tamanho do vetor
+#define VectorSize 10000     //tamanho do vetor
 
 int vector[VectorSize];     //variavel global para o vetor
 
