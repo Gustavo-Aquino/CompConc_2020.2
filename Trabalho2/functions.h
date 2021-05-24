@@ -1,3 +1,6 @@
+//--Gustavo Martins Ferreira de Aquino
+//--DRE:119044012
+
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
