@@ -1,3 +1,6 @@
+//--Gustavo Martins Ferreira de Aquino
+//--DRE:119044012
+
 #include<pthread.h>
 #include<stdio.h>
 #include<stdlib.h>
@@ -7,9 +10,9 @@
 #define E 6 //numero de threads escritoras
 
 //variaveis do problema
-int leit=0; //contador de threads lendo
-int escr=0; //contador de threads escrevendo
-int escr_espera=0;
+int leit=0;       //contador de threads lendo
+int escr=0;       //contador de threads escrevendo
+int escr_espera=0;//contador de escritoras esperando
 
 //variaveis para sincronizacao
 pthread_mutex_t mutex;
